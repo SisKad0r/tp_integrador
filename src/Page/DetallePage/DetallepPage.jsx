@@ -1,4 +1,5 @@
 import React from 'react'
+import './detallePage.css'
 import { Footer, MainDetalles, Navbar } from '../../Components'
 
 const DetallepPage = () => {

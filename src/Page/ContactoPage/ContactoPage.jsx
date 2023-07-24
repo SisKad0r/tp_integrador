@@ -1,4 +1,5 @@
 import React from 'react'
+import './contactoPage.css'
 import { Footer, MainContacto, Navbar } from '../../Components'
 
 const ContactoPage = () => {

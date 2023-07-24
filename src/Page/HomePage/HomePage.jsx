@@ -1,4 +1,5 @@
 import React from 'react'
+import './homePage.css'
 import { Footer, MainInicio, Navbar } from '../../Components'
 
 const HomePage = () => {
