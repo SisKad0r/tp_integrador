@@ -1,5 +1,4 @@
 import React from "react"
-import './app.css'
 import { HomePage, ContactoPage, ProductoPage, DetallePage, CarritoPage } from "./Page"
 import { Route, Routes } from "react-router-dom"
 

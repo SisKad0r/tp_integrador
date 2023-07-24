@@ -8,6 +8,11 @@ footer{
     color: #F3F7F4;
 } 
 
+.ruta{
+    text-decoration: none;
+    color: none;
+}
+
 .redes{
     display: flex;
     flex-direction: column;

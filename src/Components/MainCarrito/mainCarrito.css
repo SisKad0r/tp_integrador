@@ -1,4 +1,13 @@
 /* CSS => GENERAL */
+.body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 30px;
+    background-color: #F3F7F4; 
+}
+
 .contenedorCarrito {
     width: 80vw;
     margin: 0 auto;

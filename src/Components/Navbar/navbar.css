@@ -55,6 +55,11 @@ nav {
     display: none;
 }
 
+.ruta{
+    text-decoration: none;
+    color: none;
+}
+
 /* Querys */
 @media (max-width: 980px) {
     .tituloLogo {
