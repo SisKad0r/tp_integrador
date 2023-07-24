@@ -1,0 +1,97 @@
+/* Estilos de la barra de navegación */
+nav {
+    padding: 10px 80px 10px 60px;
+    border: 0px 0px 2px 0px;
+    background-color: #165A64; /* Color actualizado */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilo del Logo */
+.Logo-contenedor {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Logo-contenedor h2 {
+    font-size: 25px;
+    color: #F3F7F4; /* Color actualizado */
+}
+
+.Logo-contenedor img {
+    width: 70px;
+}
+
+/* Estilos de los links y el menú */
+.linksIcon {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 5px;
+    padding: 10px 15px;
+    border:2px solid #F3F7F4; /* Color actualizado */
+    border-radius: 8px;
+}
+
+.icon i {
+    font-size: 20px;
+    color: #F3F7F4;
+}
+
+.icon:hover{
+    background: linear-gradient(#165A64,#165A64, #165A64, #F3F7F4);
+    transition: 1s;
+}
+
+.menu {
+    display: none;
+}
+
+/* Querys */
+@media (max-width: 980px) {
+    .tituloLogo {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+}
+
+@media (max-width: 770px) {
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .linksIcon {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .linksIcon hr{
+        font-weight: bold;
+        font-size: medium;
+        color: #F3F7F4;
+    }
+
+    .ocultar {
+        display: none;
+    }
+}

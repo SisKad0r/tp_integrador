@@ -1,0 +1,45 @@
+Paleta de colores:
+
+#F3F7F4
+#E4A53A
+#E0D386
+#A95D4D
+#165A64
+
+============================
+
+Estilo card
+
+<div className="productoCard">
+    <div className="imgCard">
+        <img src={producto.img} alt="" />
+    </div>
+    <div className="tituloCard">
+        <h3>{producto.marca}</h3>
+    </div>
+    <hr />
+    <div className="descripcionCard">
+        <span>Peso:<b>{producto.peso} Kg</b></span>
+        <span>Precio:<b>${producto.precio}</b></span>
+    </div>
+    <hr />
+    <div className="buttonCard">
+        <Link to={'/detalle'} className="ruta"><span>Ver detalles</span></Link>
+        <Link to={'/carrito'} className=""><button>Comprar</button></Link>
+    </div>
+</div>
+
+============================
+
+medidas Querys
+
+@media (max-width: 970px) {
+
+}
+
+@media (max-width: 760px) {
+
+}
+
+============================
+

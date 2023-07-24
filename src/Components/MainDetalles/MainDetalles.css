@@ -1,0 +1,136 @@
+
+.contenedorrDetalle{
+    width: 80vw;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo de la carta de detalle */
+.productoCardDetalle{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    max-width: 1000px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 50px 0px 50px 0px;
+    border: 1px solid black;
+    box-shadow: 0px 20px 40px -18px rgba(0,0,0,0.75);
+}
+
+.bloqueIzquierdoDetalle{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgCardDetalle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgCardDetalle img{
+    width: 250px;
+    height: 300px;
+}
+
+.bloqueDerechoDetalle{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.tituloCardDetalle{
+text-align: center;
+}
+
+.tituloCardDetalle h3{
+    font-size: 25px;
+    text-align: center;
+}
+
+.descripcionCardDetalle{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonCardDetalle{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: start;
+}
+
+.contenedorContador{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contador{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttonCardDetalle button{
+    padding: 8px 10px;
+    width: 130px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 18px;
+    background-color: #292929;
+    color: #f9f9f9;
+}
+
+/* QUERYS */
+@media (max-width:1070px) {
+    .contenedorContador{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3px;
+    }
+    
+    .contador{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+@media (max-width:770px) {
+    .productoCardDetalle{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bloqueDerechoDetalle,
+    .bloqueIzquierdoDetalle{
+        width: 100%;
+    }
+}
+
+@media (max-width: 490px) {
+    .productoCardDetalle{
+        max-width: 1000px;
+    }
+
+    .contenedorContador{
+        gap: 8px;
+    }
+
+    .contador{
+        display: flex;
+        flex-direction: column;
+    }
+}

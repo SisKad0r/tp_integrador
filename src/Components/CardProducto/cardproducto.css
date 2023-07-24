@@ -1,0 +1,17 @@
+/* ESTILO DE LA CART */
+.containerCardProducto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardBody{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productoCardMarcas img{
+    width: 300px;
+    height: 100%;
+    padding: 3px;
+}

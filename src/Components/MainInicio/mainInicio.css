@@ -1,0 +1,16 @@
+.carouselContainer,
+.cardContainer,
+.productoContainer {
+    margin: 0 auto;
+    width: 80vw;
+}
+
+.cardHeader h2 {
+    text-align: center;
+    font-weight: 1000;
+    font-style: oblique;
+    font-stretch: expanded;
+    letter-spacing: 8px;
+    color: #A95D4D; /* Color actualizado */
+}
+

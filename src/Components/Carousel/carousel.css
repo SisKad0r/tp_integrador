@@ -1,0 +1,10 @@
+.carouselContainer {
+    width: 80vw;
+    margin: 0 auto;
+
+}
+
+.imgCarousel {
+    max-width: 80vw;
+    max-height: 78vh;
+}
